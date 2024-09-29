@@ -112,7 +112,7 @@ match seleccionar:
             manolo.append(e)   
         multiplicar_todos(*manolo)
 
-    case "Informacion de una persona con **kwargs":
+    case "Información de una persona con **kwargs":
         def informacion_personal(**datos):
             if st.button("Mostrar datos"):
                 for key,value in datos.items():
