@@ -1,18 +1,8 @@
 # Función 1
-### Función de saludo simple: Escribe una función llamada saludar() que reciba un nombre como parámetro y que imprima un saludo personalizado, por ejemplo, “Hola, Juan”. Luego, invoca la función varias veces con diferentes nombres.
-#### Codigo
-1-	Inicio 
-
-2-	Hacer dos contadores, para terminar el proceso y otro para guardar la suma
-
-3-	Pedir un número y checar que sea mayor o igual que 5 y menor o igual que 10
-
-4-	Aumentar el contador a uno y sumar el número a la variable de suma 
-
-5-	Checar si ya fueron los 5 números para regresar a pedir otro número o ya imprimir la suma  
-
-6-	Fin 
-#### 1.2 Diagrama
-[![Diagrama1.png](https://gyazo.com/b33fa2f036e0febe0aa98c38c7e704a1)]()
-#### 1.3 Prueba de escritorio
-[![Prueba1.png](https://i.gyazo.com/d306a0bc0d2b302b632418367eab502b.png)]()
+## Función de saludo simple: Escribe una función llamada saludar() que reciba un nombre como parámetro y que imprima un saludo personalizado, por ejemplo, “Hola, Juan”. Luego, invoca la función varias veces con diferentes nombres.
+### Codigo
+[![Funcion01.png](https://i.gyazo.com/b33fa2f036e0febe0aa98c38c7e704a1.png)]()
+### Explicación
+Primero enseña texto para informar a un usuario que hace la funcion, luego llama a la función saludar con un argumento de un input de texto para que el usuario introduzca su nombre; en la funcion se añade un boton para que la pagina eseñe un mensaje con el nombre introducido
+### Ejemplo
+[![Ejemplo1.png](https://i.gyazo.com/0cde4ef28ad9980d42cab47bf9d36ffa.png)]()
