@@ -61,7 +61,7 @@ match seleccionar:
                 st.text(f"{suma}")
         st.markdown("### ¿Qué realiza esta función?")
         st.markdown("Esta funcion suma los números de una lista ingresada")
-        sumar_lista(int(st.number_input("¿Cuantos numeros quieres ingresar en la lista?")))
+        sumar_lista(int(st.number_input("¿Cuantos numeros quieres ingresar en la lista?",step=1)))
 
     case "Funciones con valores predeterminados":
         def producto(nombre,cantidad=1,precio=10):
@@ -90,7 +90,7 @@ match seleccionar:
         st.markdown("### ¿Qué realiza esta función?")
         st.markdown("Esta función muestra cuales numeros son pares e impares de una lista ingresada")
         listaNumeros=[]
-        numeros=int(st.number_input("¿Cuantos numeros para la lista?"))
+        numeros=int(st.number_input("¿Cuantos numeros para la lista?",step=1))
         for i in range(numeros):
             numero=int(st.number_input(f"Ingresa el numero {i+1}"))
             listaNumeros.append(numero)
@@ -106,7 +106,7 @@ match seleccionar:
         st.markdown("### ¿Qué realiza esta función?")
         st.markdown("Realiza la multilicación de los numeros ingresados")
         manolo=[]
-        a=int(st.number_input("¿Cuantos numeros quieres multiplicar?"))
+        a=int(st.number_input("¿Cuantos numeros quieres multiplicar?",step=1))
         for i in range(a):
             e=st.number_input(f"Ingresa el numero {i+1}")
             manolo.append(e)   
@@ -120,7 +120,7 @@ match seleccionar:
         st.markdown("### ¿Qué realiza esta función?")
         st.markdown("Muestra x cantidad de datos personales ingresados por el usuario")
         datos={}
-        ejem=int(st.number_input("¿Cuantos datos personales?"))
+        ejem=int(st.number_input("¿Cuantos datos personales?",step=1))
         for i in range(ejem):
             st.markdown(f"Dato numero {i+1}")
             nombre=st.text_input(f"Ingrese nombre del dato {i+1}")
